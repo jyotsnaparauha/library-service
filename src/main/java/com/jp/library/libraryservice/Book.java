@@ -14,11 +14,21 @@ public class Book {
 	public String toString() {
 		return "Book [name=" + name + ", authour=" + authour + "]";
 	}
-	public Book(String name, String authour) {
-		super();
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
 		this.name = name;
+	}
+	public String getAuthour() {
+		return authour;
+	}
+	public void setAuthour(String authour) {
 		this.authour = authour;
 	}
+	
+	
 	
 	
 }
